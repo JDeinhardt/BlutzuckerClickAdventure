@@ -32,7 +32,11 @@
     <img src={back_arrow} alt="Pfeil zurück" class="invert h-18" />
   </a>
 
-  <img src={bodyPart?.img_src} alt="Blutbahn" class="h-[80%] ml-[8%]" />
+  <img
+    src={bodyPart?.img_src}
+    alt="Blutbahn"
+    class="h-[80%] w-auto ml-[6%] max-w-120 object-contain"
+  />
 
   <!-- Speech bubble -->
   <div class="m-10">

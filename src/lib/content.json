@@ -12,5 +12,19 @@
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
     ],
     "img_src": "/assets/Zahn.png"
+  },
+  {
+    "name": "Fettzellen",
+    "speach": [
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    ],
+    "img_src": "/assets/Fettzellen.png"
+  },
+  {
+    "name": "Leber",
+    "speach": [
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    ],
+    "img_src": "/assets/Leber.png"
   }
 ]
