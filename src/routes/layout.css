@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "DynaPuff", system-ui, sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  font-family: inherit;
+}
