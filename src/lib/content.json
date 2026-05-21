@@ -2,28 +2,59 @@
   {
     "name": "Blutbahn",
     "speach": [
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "Früher lief bei uns alles ruhig und geordnet. Nährstoffe wurden verteilt, Sauerstoff transportiert — alles funktionierte.",
+      "Dann begann Hannes jeden Tag große Mengen Zucker zu essen und süße Getränke zu trinken.",
+      "Plötzlich war überall Zucker. Viel zu viel Zucker.",
+      "Unser ganzes System musste hektisch reagieren, um alles durch den Körper zu transportieren.",
+      "Der Blutzucker stieg immer schneller an.",
+      "Die Bauchspeicheldrüse musste ständig Insulin schicken, damit das Chaos nicht außer Kontrolle gerät.",
+      "Auf Dauer belastet das sogar die Blutgefäße selbst.",
+      "Eigentlich sollten wir nur transportieren. Aber der viele Zucker brachte unser gesamtes System durcheinander."
     ],
     "img_src": "/assets/Blutbahn.png"
   },
   {
     "name": "Zahn",
     "speach": [
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "Einst war ich stark und gesund. Mein Zahnschmelz hat mich zuverlässig geschützt.",
+      "Dann begann Hannes ständig Süßigkeiten und zuckerhaltige Getränke zu konsumieren.",
+      "Die Zuckerreste blieben überall an mir hängen.",
+      "Kurz darauf kamen die Bakterien.",
+      "Sie verwandelten den Zucker in Säuren.",
+      "Diese Säuren griffen langsam meinen Zahnschmelz an.",
+      "Erst entstanden kleine Schäden. Dann wurden daraus Löcher.",
+      "Heute bin ich nicht mehr derselbe Zahn wie früher.",
+      "Zu viel Zucker hat mich Stück für Stück zerstört."
     ],
     "img_src": "/assets/Zahn.png"
   },
   {
     "name": "Fettzellen",
     "speach": [
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "Einst ging es uns eigentlich ganz gut. Wir haben nur kleine Energiereserven gespeichert, wenn der Körper sie gebraucht hat.",
+      "Dann kam Hannes. Jeden Tag süße Getränke, Snacks und viel zu viel Zucker.",
+      "Anfangs dachten wir noch: „Okay… nur ein bisschen zusätzliche Energie.“",
+      "Aber plötzlich kam immer mehr Zucker bei uns an. Viel mehr, als der Körper überhaupt verbrennen konnte.",
+      "Also mussten wir anfangen, alles zu speichern.",
+      "Wir wurden größer. Und größer. Und größer.",
+      "Irgendwann wurde es eng. Viel zu eng.",
+      "Der ganze Körper bekam Probleme mit der überschüssigen Energie.",
+      "Eigentlich wollten wir nur helfen. Aber dauerhaft zu viel Zucker hat alles verändert."
     ],
     "img_src": "/assets/Fettzellen.png"
   },
   {
     "name": "Leber",
     "speach": [
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+      "Früher lief meine Arbeit ruhig ab. Ich verarbeitete Nährstoffe und half dem Körper beim Speichern von Energie.",
+      "Doch dann begann Hannes immer mehr Zucker zu essen.",
+      "Ständig kam überschüssige Energie bei mir an.",
+      "Der Körper konnte den Zucker gar nicht komplett verbrauchen.",
+      "Also musste ich anfangen, den Überschuss als Fett zu speichern.",
+      "Mit der Zeit wurde meine Arbeit immer schwieriger.",
+      "Je mehr Zucker kam, desto mehr Fett lagerte sich bei mir ab.",
+      "Eigentlich wollte ich nur helfen, Energie bereitzuhalten.",
+      "Aber dauerhaft zu viel Zucker hat mich stark belastet."
     ],
     "img_src": "/assets/Leber.png"
   }
