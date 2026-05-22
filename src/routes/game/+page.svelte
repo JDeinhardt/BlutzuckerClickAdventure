@@ -92,7 +92,9 @@
         />
       </button>
     </div>
-    <div class="flex flex-col space-y-4 justify-center">
+    <div
+      class="flex flex-col space-y-4 justify-center border-white border-2 rounded-4xl p-8"
+    >
       {#each bodyParts as part}
         <a
           href="/selected/?name={name}&organ={part.name}"

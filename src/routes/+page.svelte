@@ -15,7 +15,7 @@
       name="name"
       type="text"
       placeholder="z.B. Hannes"
-      class="border-black border-4 rounded-xl p-4 mt-4"
+      class="border-white border-4 rounded-xl p-4 mt-4"
       bind:value={name}
     />
     <button
