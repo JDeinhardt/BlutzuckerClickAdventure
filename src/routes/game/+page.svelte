@@ -19,18 +19,18 @@
       <img
         src="/assets/Leber.png"
         alt="Leber"
-        class="absolute h-20 top-40 left-5"
+        class="absolute h-20 top-40 left-8"
       />
     </button>
 
     <button
       id="bauchspeicheldruese"
-      onclick={() => selectOrgan("bauchspeicheldruese")}
+      onclick={() => selectOrgan("bauchspeicheldrüse")}
     >
       <img
         src="/assets/BSD.png"
         alt="Bauchspeicheldrüse"
-        class="absolute h-20 top-48 left-14"
+        class="absolute h-16 top-48 left-18"
       />
     </button>
 
@@ -46,7 +46,7 @@
       <img
         src="/assets/Gehirn.png"
         alt="Gehirn"
-        class="absolute h-20 top-0 left-10"
+        class="absolute h-20 top-0 left-14"
       />
     </button>
 
@@ -62,7 +62,7 @@
       <img
         src="/assets/Fettzellen.png"
         alt="Fettzellen"
-        class="absolute h-20 top-32 left-38"
+        class="absolute h-20 top-38 left-38"
       />
     </button>
 
@@ -70,7 +70,7 @@
       <img
         src="/assets/Darm.png"
         alt="Darm"
-        class="absolute h-26 top-58 left-8.5"
+        class="absolute h-26 top-58 left-11.5"
       />
     </button>
 
@@ -78,7 +78,7 @@
       <img
         src="/assets/Herz.png"
         alt="Herz"
-        class="absolute h-20 top-32 left-16"
+        class="absolute h-20 top-32 left-22"
       />
     </button>
   </div>
