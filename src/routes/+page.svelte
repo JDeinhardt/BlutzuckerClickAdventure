@@ -1,15 +1,26 @@
-<script lang="ts">
-  import { getBodyParts } from "$lib";
-  import type { BodyPart } from "$lib/types";
+<script>
+  import { goto } from "$app/navigation";
 
-  const bodyParts: BodyPart[] = getBodyParts();
+  let name = $state("");
+
+  const start = () => {
+    goto(name === "" ? `/game/?name=Hannes` : `/game/?name=${name}`);
+  };
 </script>
 
-<div
-  class="flex items-center content-center flex-col h-dvh justify-center text-6xl space-y-8"
->
-  <h1 class="underline">DEV</h1>
-  {#each bodyParts as part}
-    <a href="/selected/?name={part.name}">{part.name}</a>
-  {/each}
+<div class="flex items-center content-center justify-center h-full">
+  <div class="h-100 w-150 flex flex-col justify-center text-4xl">
+    <label for="name" class="underline">Name eingeben:</label>
+    <input
+      name="name"
+      type="text"
+      placeholder="Hannes"
+      class="border-black border-4 rounded-xl p-4 mt-4"
+      bind:value={name}
+    />
+    <button
+      class="bg-red-800 text-xl font-semibold p-4 rounded-xl text-white mt-4 transition-colors"
+      onclick={start}>Entdeckungsreise Starten</button
+    >
+  </div>
 </div>

@@ -4,8 +4,10 @@
   import back_arrow from "$lib/assets/arrow-back.svg";
   import { onMount } from "svelte";
 
-  const name = page.url.searchParams.get("name")!;
-  const bodyPart = getBodyPartByName(name);
+  const name = page.url.searchParams.get("name");
+
+  const organ = page.url.searchParams.get("organ")!;
+  const bodyPart = getBodyPartByName(organ);
 
   const isLastPart = () => part >= bodyPart!.speach.length - 1;
 
@@ -14,7 +16,7 @@
 
   let fullText = $derived(bodyPart!.speach[part]);
 
-  const delay = 25;
+  const delay = 30;
 
   let disabled = $state(true);
 
@@ -54,13 +56,16 @@
 </script>
 
 <div class="h-dvh flex items-center justify-between">
-  <a class="border-black border-4 rounded-full absolute top-4 left-4" href="/">
+  <a
+    class="border-black border-4 rounded-full absolute top-4 left-4"
+    href="/game?name={name}"
+  >
     <img src={back_arrow} alt="Pfeil zurück" class="invert h-12" />
   </a>
 
   <img
     src={bodyPart?.img_src}
-    alt="Blutbahn"
+    alt={bodyPart?.name}
     class="h-[80%] w-auto ml-10 max-w-120 object-contain"
   />
 

@@ -57,5 +57,63 @@
       "Aber dauerhaft zu viel Zucker hat mich stark belastet."
     ],
     "img_src": "/assets/Leber.png"
+  },
+  {
+    "name": "Bauchspeicheldrüse",
+    "speach": [
+      "Früher war meine Arbeit ziemlich ausgeglichen. Ich produzierte genau die richtige Menge Insulin.",
+      "Doch dann begann Hannes ständig Zucker zu essen.",
+      "Immer öfter schoss der Blutzucker plötzlich nach oben.",
+      "Jedes Mal musste ich sofort reagieren.",
+      "Ich produzierte mehr und mehr Insulin, damit der Zucker überhaupt in die Zellen gelangen konnte.",
+      "Anfangs funktionierte das noch.",
+      "Aber irgendwann wurde die Belastung zu groß.",
+      "Ich musste dauerhaft auf Hochtouren arbeiten.",
+      "Zu viel Zucker kann mich auf Dauer erschöpfen und krank machen."
+    ],
+    "img_src": "/assets/Bauchspeicheldrüse.png"
+  },
+  {
+    "name": "Gehirn",
+    "speach": [
+      "Ich brauche ständig Energie, um denken, lernen und konzentrieren zu können.",
+      "Als Hannes begann, immer mehr Zucker zu essen, bekam ich plötzlich sehr schnelle Energieschübe.",
+      "Kurz fühlte sich alles wach und aktiv an.",
+      "Doch der Effekt hielt nie lange.",
+      "Nach dem schnellen Anstieg fiel der Blutzucker oft wieder stark ab.",
+      "Dann wurde alles schwieriger.",
+      "Konzentration, Aufmerksamkeit und Energie verschwanden plötzlich.",
+      "Eigentlich arbeite ich am besten mit gleichmäßiger Energie.",
+      "Zu viel Zucker brachte meinen Rhythmus komplett durcheinander."
+    ],
+    "img_src": "/assets/Gehirn.png"
+  },
+  {
+    "name": "Herz",
+    "speach": [
+      "Tag und Nacht pumpe ich Blut durch den gesamten Körper.",
+      "Lange Zeit funktionierte alles problemlos.",
+      "Doch dann kam immer mehr Zucker ins Blut.",
+      "Der ganze Kreislauf wurde stärker belastet.",
+      "Auch die Blutgefäße mussten immer mehr aushalten.",
+      "Je länger der hohe Zuckerkonsum anhielt, desto schwieriger wurde meine Arbeit.",
+      "Eigentlich will ich den Körper nur zuverlässig versorgen.",
+      "Aber dauerhaft zu viel Zucker kann das Herz-Kreislauf-System stark belasten."
+    ],
+    "img_src": "/assets/Herz.png"
+  },
+  {
+    "name": "Darm",
+    "speach": [
+      "Normalerweise helfe ich dabei, Nährstoffe aus der Nahrung aufzunehmen.",
+      "Doch bei Hannes kam plötzlich immer mehr Zucker an.",
+      "Die gesunde Balance in meinem Inneren begann sich zu verändern.",
+      "Ungesunde Bakterien freuten sich über die vielen Zuckerreste.",
+      "Gleichzeitig bekam der Körper oft zu wenig Ballaststoffe und gesunde Nahrung.",
+      "Mit der Zeit geriet vieles durcheinander.",
+      "Eigentlich soll ich den Körper unterstützen und versorgen.",
+      "Aber dauerhaft schlechte Ernährung macht auch mir Probleme."
+    ],
+    "img_src": "/assets/Darm.png"
   }
 ]
