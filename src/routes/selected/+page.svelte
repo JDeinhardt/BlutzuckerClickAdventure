@@ -16,8 +16,6 @@
 
   let fullText = $derived(bodyPart!.speach[part]);
 
-  const delay = 30;
-
   let disabled = $state(true);
 
   onMount(() => {
@@ -26,22 +24,34 @@
 
   const typeWriter = () => {
     displayed = "";
-
     disabled = true;
 
     let i = 0;
 
-    const interval = setInterval(() => {
+    const write = () => {
       displayed += fullText[i];
+
       i++;
 
       if (i >= fullText.length) {
-        clearInterval(interval);
-
-        // nur aktivieren wenn weiterer part existiert
         disabled = part >= bodyPart!.speach.length - 1;
+        return;
       }
-    }, delay);
+
+      let delay = 30;
+
+      if (fullText[i - 1] === ".") {
+        delay = 200;
+      } else if (fullText[i - 1] === " ") {
+        delay = 30;
+      } else if (fullText[i - 1] === ",") {
+        delay = 100;
+      }
+
+      setTimeout(write, delay);
+    };
+
+    write();
   };
 
   const goNextPart = () => {
@@ -55,12 +65,12 @@
   };
 </script>
 
-<div class="h-dvh flex items-center justify-between">
+<div class="h-dvh flex items-center justify-around">
   <a
-    class="border-black border-4 rounded-full absolute top-4 left-4"
+    class="border-white border-4 rounded-full absolute top-4 left-4"
     href="/game?name={name}"
   >
-    <img src={back_arrow} alt="Pfeil zurück" class="invert h-12" />
+    <img src={back_arrow} alt="Pfeil zurück" class="h-12" />
   </a>
 
   <img

@@ -3,6 +3,7 @@
   import { page } from "$app/state";
   import { getBodyParts } from "$lib";
   import type { BodyPart } from "$lib/types";
+  import back_arrow from "$lib/assets/arrow-back.svg";
 
   const bodyParts: BodyPart[] = getBodyParts();
 
@@ -14,6 +15,10 @@
 </script>
 
 <div class="flex items-center content-center flex-col h-full justify-center">
+  <a class="border-white border-4 rounded-full absolute top-4 left-4" href="/">
+    <img src={back_arrow} alt="Pfeil zurück" class="h-12" />
+  </a>
+
   <h1 class="text-center text-6xl mb-8 underline">{name}</h1>
 
   <div class="flex justify-around w-250">
