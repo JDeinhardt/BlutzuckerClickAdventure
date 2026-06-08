@@ -20,7 +20,7 @@
     />
     <button
       class="bg-red-800 text-xl font-semibold p-4 rounded-xl text-white mt-4 transition-colors"
-      onclick={start}>Entdeckungsreise Starten</button
+      onclick={start}>Entdeckungsreise Starten!</button
     >
   </div>
 </div>
