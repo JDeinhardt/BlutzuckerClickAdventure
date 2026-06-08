@@ -22,8 +22,8 @@
   <h1 class="text-center text-6xl mb-8 underline">{name}</h1>
 
   <div class="flex justify-around w-250">
-    <div class="relative h-125">
-      <img src="/assets/human.svg" alt="human" class="h-full" />
+    <div class="relative h-125 w-50">
+      <img src="/assets/human.svg" alt="human" class="h-full w-full" />
 
       <button id="leber" onclick={() => selectOrgan("leber")}>
         <img
