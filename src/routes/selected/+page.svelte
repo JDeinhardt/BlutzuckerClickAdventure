@@ -4,7 +4,7 @@
   import back_arrow from "$lib/assets/arrow-back.svg";
   import { onMount } from "svelte";
 
-  const name = page.url.searchParams.get("name");
+  const name = page.url.searchParams.get("name") ?? "Hannes";
 
   const organ = page.url.searchParams.get("organ")!;
   const bodyPart = getBodyPartByName(organ);
@@ -14,7 +14,7 @@
   let displayed = $state("");
   let part = $state(0);
 
-  let fullText = $derived(bodyPart!.speach[part]);
+  let fullText = $derived(bodyPart!.speach[part].replaceAll("{{name}}", name!));
 
   let disabled = $state(true);
 
@@ -38,7 +38,7 @@
         return;
       }
 
-      let delay = 30;
+      let delay = 20;
 
       if (fullText[i - 1] === ".") {
         delay = 200;
@@ -58,8 +58,6 @@
     if (part >= bodyPart!.speach.length - 1) return;
 
     part++;
-
-    fullText = bodyPart!.speach[part];
 
     typeWriter();
   };

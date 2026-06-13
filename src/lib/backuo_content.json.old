@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Blutbahn",
+    "speach": [
+      "Hannes hat sich in letzter Zeit schon wirklich etwas komisch Verhalten."
+      ""
+
+    ],
+    "img_src": "/assets/Blutbahn.png"
+  },
+  {
+    "name": "Zahn",
+    "speach": [
+      "Ich war mal glatt, stark und von meinem Zahnschmelz gut geschützt.",
+      "Dann kamen ständig Süßigkeiten, Limonade und klebrige Zuckerreste dazu.",
+      "Auf meiner Oberfläche fühlten sich Bakterien plötzlich richtig wohl.",
+      "Sie verwandelten den Zucker in Säuren.",
+      "Diese Säuren greifen meinen Zahnschmelz an und lösen langsam Mineralien heraus.",
+      "Am Anfang sind es kleine Schäden, doch mit der Zeit entstehen Löcher.",
+      "Das ist nicht nur unangenehm, sondern kann auch schmerzhaft werden.",
+      "Zu viel Zucker ist für mich also kein kleiner Fehler, sondern ein echter Angriff."
+    ],
+    "img_src": "/assets/Zahn.png"
+  },
+  {
+    "name": "Fettzellen",
+    "speach": [
+      "Wir sind eigentlich dafür da, Energie für später zu speichern.",
+      "Am Anfang dachten wir noch: ein bisschen Extra-Zucker, das geht schon.",
+      "Doch dann kam ständig mehr Energie an, als der Körper direkt verbrauchen konnte.",
+      "Also wandelte der Körper den Überschuss in Fett um und lagerte ihn bei uns ein.",
+      "Wir wurden größer, mehr und aktiver, als uns eigentlich lieb war.",
+      "Mit zunehmender Größe verändert sich auch unser Verhalten im Stoffwechsel.",
+      "Das kann zur Insulinresistenz beitragen und den Körper immer träger im Umgang mit Zucker machen.",
+      "Wir wachsen also nicht einfach nur, wir verändern das ganze Gleichgewicht."
+    ],
+    "img_src": "/assets/Fettzellen.png"
+  },
+  {
+    "name": "Leber",
+    "speach": [
+      "Ich bin normalerweise eine Art Stoffwechselzentrale: sortieren, umwandeln, speichern.",
+      "Bei viel Zucker kommt ständig neue Arbeit bei mir an.",
+      "Wenn der Körper mehr Energie bekommt, als er gerade braucht, muss ich den Überschuss mitverarbeiten.",
+      "Ein Teil davon landet indirekt in der Fettspeicherung.",
+      "Auf Dauer kann sich sogar Fett in mir einlagern, wenn das Ungleichgewicht bleibt.",
+      "Dann wird meine Arbeit schwerer und unruhiger.",
+      "Ich will den Körper unterstützen, nicht dauerhaft überlastet werden.",
+      "Zu viel Zucker bringt mich deshalb ziemlich aus dem normalen Rhythmus."
+    ],
+    "img_src": "/assets/Leber.png"
+  },
+  {
+    "name": "Bauchspeicheldrüse",
+    "speach": [
+      "Ich habe einen wichtigen Auftrag: Insulin produzieren, wenn der Blutzucker steigt.",
+      "Bei Hannes musste ich nach vielen süßen Mahlzeiten immer wieder sofort reagieren.",
+      "Am Anfang schaffte ich das noch, weil ich einfach mehr Insulin ausgeschüttet habe.",
+      "Das war fast so, als wäre ich plötzlich dauernd im Notfallmodus.",
+      "Aber wenn das ständig passiert, kann ich auf Dauer erschöpfen.",
+      "Bei Typ-2-Diabetes reicht die Antwort irgendwann nicht mehr richtig aus.",
+      "Dann bleibt der Zucker länger im Blut, statt sauber in die Zellen zu gelangen.",
+      "Ich bin also nicht zuerst faul geworden — ich war zu lange überlastet."
+    ],
+    "img_src": "/assets/BSD.png"
+  },
+  {
+    "name": "Gehirn",
+    "speach": [
+      "Ich brauche Energie, aber am liebsten gleichmäßig und verlässlich.",
+      "Wenn Hannes viel Zucker isst, kommt erst ein schneller Energieschub bei mir an.",
+      "Kurz fühlt sich das wie Power an, aber das hält nicht lange.",
+      "Danach fällt der Blutzucker oft wieder ab und ich merke das sofort.",
+      "Dann werden Konzentration, Stimmung und Leistungsfähigkeit unruhiger.",
+      "Ich arbeite nicht gut mit ständigen Aufs und Abs.",
+      "Für Lernen, Denken und Fokussieren brauche ich Stabilität.",
+      "Zu viel Zucker macht meinen Alltag deshalb eher chaotisch als hilfreich."
+    ],
+    "img_src": "/assets/Gehirn.png"
+  },
+  {
+    "name": "Herz",
+    "speach": [
+      "Ich pumpe ununterbrochen Blut durch den ganzen Körper.",
+      "Wenn der Zucker ständig hoch ist, wird das gesamte Kreislaufsystem stärker belastet.",
+      "Besonders die Blutgefäße müssen dann auf Dauer mehr aushalten.",
+      "Das macht meine Arbeit nicht sofort kaputt, aber es setzt dem System zu.",
+      "Ich merke vor allem, wenn der Stoffwechsel langfristig aus dem Gleichgewicht gerät.",
+      "Dann wird die Versorgung im Körper weniger effizient.",
+      "Ich will zuverlässig schlagen und den Körper versorgen.",
+      "Dauerhaft zu viel Zucker macht mir das aber deutlich schwerer."
+    ],
+    "img_src": "/assets/Herz.png"
+  },
+  {
+    "name": "Darm",
+    "speach": [
+      "Ich bin dafür da, Nährstoffe aufzunehmen und den Körper zu versorgen.",
+      "Wenn Hannes aber sehr zuckerlastig isst, verschiebt sich die Balance im Inneren.",
+      "Ungünstige Bakterien bekommen dann leichtes Spiel, weil wenig Ausgleich da ist.",
+      "Gleichzeitig fehlen oft Ballaststoffe und andere wichtige Bestandteile.",
+      "Dadurch läuft meine Umgebung nicht mehr so stabil wie sie sollte.",
+      "Auch die Aufnahme und Verarbeitung von Nahrung gerät durcheinander.",
+      "Ich arbeite am besten mit einer ausgewogenen Ernährung.",
+      "Zu viel Zucker macht meine Aufgaben also nicht einfacher, sondern unruhiger."
+    ],
+    "img_src": "/assets/Darm.png"
+  }
+]
