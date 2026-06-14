@@ -68,7 +68,7 @@
         />
       </button>
 
-      <button id="fettzellen" onclick={() => selectOrgan("fettzellen")}>
+      <button id="fettzellen" onclick={() => selectOrgan("fettgewebe")}>
         <img
           src="/assets/Fettzellen.png"
           alt="Fettzellen"
